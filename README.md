@@ -1,0 +1,7 @@
+# ENG-VSR-ConvNet
+Files to train and test a ConvNet for the task of Velocity Selective Recording (VSR) of an Electroneurogram (ENG) signal. Developed for my final Master's project at the University of Bath.
+
+
+The action potentials (APs) that propagate as signals throughout our nervous systems can be easily recorded, but inferring useful information from them in real-time is a complex task. Detecting the occurrence of particular signals has many medical applications that could improve well-being, from alerting of an imminent seizure to restoring partial bladder control for those afflicted by spinal cord damage. Since these specific signals are identifiable by their AP propagation speed, the methods for detecting them attempt to reliably respond to neural activity in a narrow velocity range; this is termed Velocity Selective Recording (VSR).
+
+A new method for performing VSR is proposed, based on a Convolutional Neural Network. This system, trained with highly-realistic data generated using novel techniques, outperformed both TDNN and Delay-and-Sum when used with noisy signals. Most importantly, the CNN produced clearer and more accurate velocity classiffications than the other methods when tested with real neural recordings from a rat. Although this performance appears limited to the low-velocity range (1-20 m/s), these exciting results could be an important step towards reliable and accurate VSR.
